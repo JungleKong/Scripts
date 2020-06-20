@@ -4,7 +4,7 @@ import time
 
 url = 'http://one.hrbeu.edu.cn/'
 username = "2016071705"
-password = "********"
+password = "asyouare"
 
 path = r"F:\chromedriver.exe"
 # option = webdriver.ChromeOptions()
