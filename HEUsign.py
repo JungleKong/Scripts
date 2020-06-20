@@ -3,8 +3,8 @@ from selenium import webdriver
 import time
 
 url = 'http://one.hrbeu.edu.cn/'
-username = "2016071705"
-password = "02224114"
+username = "*********"
+password = "********"
 
 path = r"F:\chromedriver.exe"
 # option = webdriver.ChromeOptions()
