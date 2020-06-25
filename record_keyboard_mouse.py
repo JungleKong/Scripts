@@ -33,6 +33,7 @@ while True:
             on_release=on_release) as listener:
         listener.join()
     print("第{}次记录，结果为：{}".format(i, "".join(a)))
+    a.clear()
     i += 1
 
 
