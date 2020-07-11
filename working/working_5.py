@@ -155,10 +155,11 @@ for j in range(len(name)):
         my_driver.switch_to.window(windows_all[i+2])
         while True:
             try:
+                time.sleep(4)
                 my_driver.find_element_by_class_name('prism-big-play-btn').click()
                 break
             except:
-                time.sleep(1)
+                my_driver.refresh()
 
     print("正在播放"+username+"第一部分")
 
@@ -177,10 +178,11 @@ for j in range(len(name)):
         my_driver.switch_to.window(windows_all[i-9])
         while True:
             try:
+                time.sleep(4)
                 my_driver.find_element_by_class_name('prism-big-play-btn').click()
                 break
             except:
-                time.sleep(1)
+                my_driver.refresh()
     print("正在播放"+username+"第二部分")
 
     time.sleep(time_five)
@@ -199,10 +201,11 @@ for j in range(len(name)):
         my_driver.switch_to.window(windows_all[i-19])
         while True:
             try:
+                time.sleep(4)
                 my_driver.find_element_by_class_name('prism-big-play-btn').click()
                 break
             except:
-                time.sleep(1)
+                my_driver.refresh()
     print("正在播放"+username+"第三部分")
 
     time.sleep(time_five)
@@ -221,10 +224,11 @@ for j in range(len(name)):
         my_driver.switch_to.window(windows_all[i-29])
         while True:
             try:
+                time.sleep(4)
                 my_driver.find_element_by_class_name('prism-big-play-btn').click()
                 break
             except:
-                time.sleep(1)
+                my_driver.refresh()
     print("正在播放"+username+"第四部分")
 
     time.sleep(time_five)
@@ -243,10 +247,11 @@ for j in range(len(name)):
         my_driver.switch_to.window(windows_all[i-38])
         while True:
             try:
+                time.sleep(4)
                 my_driver.find_element_by_class_name('prism-player').click()
                 break
             except:
-                time.sleep(1)
+                my_driver.refresh()
 
     print("正在播放"+username+"第五部分")
 
